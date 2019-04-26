@@ -11,7 +11,7 @@ namespace ListView
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        private List<string> mItems;
+        private List<Person> mItems;
         private AbsListView mListView;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -21,14 +21,13 @@ namespace ListView
 
             mListView = FindViewById<AbsListView>(Resource.Id.myListView);
 
-            mItems = new List<string>();
-            mItems.Add("Himanshu");
-            mItems.Add("James");
-            mItems.Add("Sonu");
+            mItems = new List<Person>();
+            mItems.Add(new Person() { FirstName = "Himanshu", LastName = "Chowdhary", Age = "25", Gender = "Male" });
+            mItems.Add(new Person() { FirstName = "Adyasha", LastName = "Das", Age = "24", Gender = "Female" });
+            mItems.Add(new Person() { FirstName = "Durga", LastName = "Chowdhary", Age = "56", Gender = "Female" });
 
             MyListViewAdapter adapter = new MyListViewAdapter(this, mItems);
-
-            string indexecrTest = adapter.mItems[1];
+            
             mListView.Adapter = adapter;
 
         }
