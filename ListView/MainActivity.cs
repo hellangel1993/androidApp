@@ -26,8 +26,9 @@ namespace ListView
             mItems.Add("James");
             mItems.Add("Sonu");
 
-            ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleExpandableListItem1, mItems);
+            MyListViewAdapter adapter = new MyListViewAdapter(this, mItems);
 
+            string indexecrTest = adapter.mItems[1];
             mListView.Adapter = adapter;
 
         }
