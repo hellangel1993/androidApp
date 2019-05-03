@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstAndroid", "App6\FirstA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListView", "ListView\ListView.csproj", "{AB06D679-6CA1-4CD3-B7D8-93349C8FCF53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginSystem", "LoginSystem\LoginSystem.csproj", "{4952193D-22AB-4669-9809-C006D635FAF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,12 @@ Global
 		{AB06D679-6CA1-4CD3-B7D8-93349C8FCF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB06D679-6CA1-4CD3-B7D8-93349C8FCF53}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AB06D679-6CA1-4CD3-B7D8-93349C8FCF53}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4952193D-22AB-4669-9809-C006D635FAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4952193D-22AB-4669-9809-C006D635FAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4952193D-22AB-4669-9809-C006D635FAF7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4952193D-22AB-4669-9809-C006D635FAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4952193D-22AB-4669-9809-C006D635FAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4952193D-22AB-4669-9809-C006D635FAF7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -22,10 +22,12 @@ namespace ListView
 
             mListView = FindViewById<AbsListView>(Resource.Id.myListView);
 
-            mItems = new List<Person>();
-            mItems.Add(new Person() { FirstName = "Himanshu", LastName = "Chowdhary", Age = "25", Gender = "Male" });
-            mItems.Add(new Person() { FirstName = "Adyasha", LastName = "Das", Age = "24", Gender = "Female" });
-            mItems.Add(new Person() { FirstName = "Durga", LastName = "Chowdhary", Age = "56", Gender = "Female" });
+            mItems = new List<Person>
+            {
+                new Person() { FirstName = "Himanshu", LastName = "Chowdhary", Age = "25", Gender = "Male" },
+                new Person() { FirstName = "Adyasha", LastName = "Das", Age = "24", Gender = "Female" },
+                new Person() { FirstName = "Durga", LastName = "Chowdhary", Age = "56", Gender = "Female" }
+            };
 
             MyListViewAdapter adapter = new MyListViewAdapter(this, mItems);
             
