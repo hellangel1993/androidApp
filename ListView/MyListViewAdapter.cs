@@ -16,7 +16,7 @@ namespace ListView
     {
 
         public List<Person> mItems;
-        private Context mContext;
+        readonly private Context mContext;
 
         public MyListViewAdapter(Context context,List<Person> items)
         {
